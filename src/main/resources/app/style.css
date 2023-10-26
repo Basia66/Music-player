@@ -1,0 +1,25 @@
+.frame {
+    -fx-background-color: radial-gradient(focus-angle 45deg , focus-distance 20% , center 25% 25% , radius 50% , reflect, #808080, #a9a9a9 75% , #696969);
+}
+
+.overlay {
+    -fx-background-color: radial-gradient(focus-angle 45deg , focus-distance 20% , center 25% 25% , radius 50% , reflect, #808080, #a9a9a9 75% , #696969);
+}
+
+.list-view {
+    -fx-background-color: transparent;
+}
+
+.button {
+    -fx-border-width: 0;
+    -fx-background-color: transparent;
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+}
+
+.button:hover {
+    -fx-background-color: black;
+}
+
+
+
